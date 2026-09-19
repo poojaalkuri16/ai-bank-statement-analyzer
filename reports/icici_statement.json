@@ -3,7 +3,7 @@
     "bank_name": "ICICI Bank",
     "statement_start_date": "2024-04-01",
     "statement_end_date": "2024-05-19",
-    "generated_at": "2026-07-31",
+    "generated_at": "2026-08-13",
     "transaction_count": 60,
     "extraction_confidence": 0.65,
     "transactions": [
@@ -788,11 +788,5 @@
             "source_text": "19/05/2024\nREFUND - ZOMATO ORDER CANCELLED\n4,506.60\n110,354.68"
         }
     ],
-    "metadata": {
-        "ai_summary": "### 1. Executive Summary\n\nThe financial analysis of ICICI Bank's customer for the period from April 1, 2024, to May 19, 2024, reveals a net cash flow of ₹30,509.80. The income and expenses are in line with the budgeted amounts, indicating that the customer has met their financial goals for this period. However, there is room for improvement in terms of savings rate and overall budget health.\n\n### 2. Spending Analysis\n\nThe largest spending category identified is \"Transfer,\" which accounts for ₹55410.23 of the total expenses. This expenditure can be attributed to various transactions such as utility payments, online shopping, and financial transfers. The second-largest expense category is \"Bills,\" totaling ₹11735.51.\n\n### 3. Income Analysis\n\nThe highest income recorded was a salary credit from NEXUS SYSTEMS LTD on April 10, 2024, amounting to ₹93691.85. This transaction is significant as it represents the customer's primary source of income and has been recurring over multiple transactions.\n\n### 4. Recurring Payments\n\nThe customer has a high frequency of recurring payments, including salary credits, rent, and EMIs from various sources such as Landlord (Rent), Emi - Personal Loan Icici, and Amazon. These recurring transactions contribute significantly to the income but also increase the overall expenses.\n\n### 5. Financial Health\n\nThe budget health analysis shows that the customer's savings rate is at 10.19%, which falls short of the desired savings rate of 20%. This indicates a need for improvement in managing expenses and increasing income sources or reducing unnecessary expenditures.\n\n### 6. Recommendations\n\n- **Increase Savings Rate**: The current savings rate can be improved by either cutting down on non-essential spending or finding additional sources of income.\n  \n- **Monitor Expenses**: Regularly review the largest expense categories, such as \"Transfer\" and \"Bills,\" to ensure they are necessary and not wasteful.\n\n- **Budget Adjustments**: Consider adjusting the budget allocation for recurring payments like salary credits and rent to better align with financial goals.\n\n- **Income Generation**: Explore additional income opportunities or consider part-time work that can supplement the current income without significantly increasing expenses.\n\nBy implementing these recommendations, the customer can enhance their financial health and achieve a more balanced budget.",
-        "ai_validation": {
-            "passed": true,
-            "warnings": []
-        }
-    }
+    "metadata": {}
 }

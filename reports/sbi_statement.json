@@ -3,7 +3,7 @@
     "bank_name": "State Bank of India",
     "statement_start_date": "2024-05-01",
     "statement_end_date": "2024-05-17",
-    "generated_at": "2026-07-31",
+    "generated_at": "2026-08-13",
     "transaction_count": 20,
     "extraction_confidence": 1.0,
     "transactions": [
@@ -268,11 +268,5 @@
             "source_text": "17/05/2024\nEMI - CONSUMER DURABLE LOAN BAJAJ FINSERV\n8,453.21\n63,767.46"
         }
     ],
-    "metadata": {
-        "ai_summary": "### 1. Executive Summary\n\nThe customer's bank statement for the period from May 1, 2024, to May 17, 2024, shows a net cash flow of -₹18,682.54, indicating overspending by ₹18,682.54 compared to the budgeted amount. The largest spending category is Rent at ₹24,950.89, followed closely by Shopping and Food.\n\n### 2. Spending Analysis\n\nThe customer spent a total of ₹85,743.56 on expenses during this period, which exceeds their income of ₹67,061.02. The largest category is Rent at ₹24,950.89, followed by Shopping and Food totaling ₹28,59.03.\n\n### 3. Income Analysis\n\nThe customer's income was ₹67,061.02, which includes a salary credit of ₹63,509.05 on May 12, 2024, and a rental payment of ₹24,950.89 on May 1, 2024.\n\n### 4. Recurring Payments\n\nThe customer has recurring transactions with Landlord (Rent) for ₹24,950.89, ATM Withdrawal for ₹8,627.45, Flipkart for ₹8,498.42, Bajaj Finserv for ₹8,453.21, and Rahul Sharma for ₹7,912.46.\n\n### 5. Financial Health\n\nThe customer's budget health is marked as overspending due to the significant difference between income and expenses (₹67,061.02 - ₹85,743.56 = -₹18,682.54). The largest expense category is Rent at ₹24,950.89.\n\n### 6. Recommendations\n\nTo improve financial health and meet the budgeted amount, the customer should:\n- Review and adjust spending habits on categories like Rent and Shopping.\n- Consider reducing expenses or increasing income through additional sources of revenue.\n- Monitor recurring transactions to ensure they are necessary and not just for convenience.",
-        "ai_validation": {
-            "passed": true,
-            "warnings": []
-        }
-    }
+    "metadata": {}
 }

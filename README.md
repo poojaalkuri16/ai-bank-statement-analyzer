@@ -4,6 +4,14 @@ An intelligent AI-powered financial assistant that transforms raw bank statement
 
 Unlike traditional bank statement analyzers that rely on bank-specific templates or regular expressions, Finance AI Agent uses a document understanding pipeline to automatically identify transaction regions, normalize transactions, categorize spending, generate reports, and answer financial questions across multiple banks.
 
+<p align="center">
+  <img src="docs/home-page.png" alt="Finance AI Agent — Home Page" width="700"/>
+</p>
+
+<p align="center">
+  <em>Upload a bank statement PDF and ask questions about your finances in plain English.</em>
+</p>
+
 ---
 
 ## Features
@@ -110,7 +118,15 @@ Automatically computes:
 
 ## Natural Language Question Answering
 
-Ask questions naturally.
+Ask questions naturally through a chat interface.
+
+<p align="center">
+  <img src="docs/chat.png" alt="Finance AI Agent — Chat Interface" width="700"/>
+</p>
+
+<p align="center">
+  <em>Ask follow-up questions in plain English — the assistant keeps track of context across the conversation.</em>
+</p>
 
 Examples:
 

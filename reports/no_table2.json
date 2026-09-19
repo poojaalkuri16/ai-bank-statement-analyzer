@@ -3,7 +3,7 @@
     "bank_name": "Union Bank of India",
     "statement_start_date": "2024-08-02",
     "statement_end_date": "2024-08-27",
-    "generated_at": "2026-07-31",
+    "generated_at": "2026-08-13",
     "transaction_count": 35,
     "extraction_confidence": 1.0,
     "transactions": [
@@ -463,11 +463,5 @@
             "source_text": "Txn Date\n: 27/08/2024\n: EMI - CAR LOAN AXIS BANK\nAmount\n: -50.00 (Dr)\n: ₹4,750.57"
         }
     ],
-    "metadata": {
-        "ai_summary": "### 1. Executive Summary\n\nThe customer's bank statement for the period from August 2nd to August 27th, 2024, shows a net cash flow of -₹34,189.58, indicating an overspending situation. The largest spending category is transfers, which accounted for ₹49,311.36. The highest expense was related to rent payment through UPI/RENTPAY, totaling ₹20,046.51.\n\n### 2. Spending Analysis\n\n#### Total Expenses\nThe total expenses recorded over the period are ₹130,454.34. This includes:\n- Fuel: ₹5,937.89\n- Bills: ₹1,328.83\n- Insurance: ₹20,734.19\n- Transfer: ₹49,311.36\n- Entertainment: ₹311.76\n- Food: ₹877.92\n- EMI: ₹10,355.06\n- Rent: ₹20,096.51\n- Travel: ₹5,414.73\n- Shopping: ₹10,590.34\n- Cash Withdrawal: ₹5,243.45\n- Healthcare: ₹252.3\n\n#### Largest Spending Category\nThe largest spending category is transfers, which amounted to ₹49,311.36.\n\n### 3. Income Analysis\n\n#### Total Income\nThe total income recorded over the period is ₹96,264.76.\n\n#### Highest Expense Transaction\nThe highest expense transaction was related to rent payment through UPI/RENTPAY, totaling ₹20,046.51.\n\n#### Highest Income Transaction\nThe highest income transaction was a salary credit from INFOTECH SOLUTIONS PVT LTD on August 4th, 2024, amounting to ₹78,096.46.\n\n### 4. Recurring Payments\n\nRecurring transactions include:\n- Landlord (Rent): ₹20,096.51\n- Imps-Hdfc-Rahul: ₹19,406.98\n- LIC: ₹17,499.55\n- Rtgs Transfer - Vendor Payment: ₹15,532.06\n- Rahul Sharma: ₹14,372.32\n\n### 5. Financial Health\n\n#### Budget Health\nThe budget health is categorized as overspending due to the net cash flow being negative (-₹34,189.58).\n\n#### Largest Spending Category Breakdown\n- Fuel: ₹5,937.89\n- Bills: ₹1,328.83\n- Insurance: ₹20,734.19\n- Transfer: ₹49,311.36\n\n### 6. Recommendations\n\n#### Reduce Spending on Non-Essential Categories\nGiven the overspending situation, it is recommended to review and reduce spending in non-essential categories such as entertainment, shopping, and travel.\n\n#### Increase Income Sources\nConsidering the highest income transaction was a salary credit, there might be opportunities to increase income through additional work or freelance projects.\n\n#### Monitor Budget Health Regularly\nRegular monitoring of budget health will help identify areas where overspending can be mitigated. This could involve setting up automatic transfers from savings accounts to cover recurring expenses and reviewing spending habits on a regular basis.\n\nBy implementing these recommendations, the customer can improve their financial situation and achieve better budget management going forward.",
-        "ai_validation": {
-            "passed": true,
-            "warnings": []
-        }
-    }
+    "metadata": {}
 }

@@ -11,3 +11,5 @@ venv/
 .vscode/
 thumb.db 
 .qoder/
+# Generated report files
+reports/tmp*.json

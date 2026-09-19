@@ -158,6 +158,9 @@ class DocumentAgent:
 
         pdf_path = Path(pdf_path)
 
+        # Reset field extraction running states (e.g. last_balance) for the new run
+        self.field_extractor.reset()
+
         # ── 1. Read PDF ───────────────────────────────────────────────────
         raw_document = self.reader.execute(str(pdf_path))
         context.update_metadata("raw_document", raw_document)

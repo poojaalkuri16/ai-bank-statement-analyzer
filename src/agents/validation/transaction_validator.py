@@ -83,8 +83,20 @@ class TransactionValidator:
         valid: list[Transaction] = []
         skipped: list[dict] = []
 
+        # Find max absolute balance across all extracted transactions in the statement
+        balances = [abs(txn.balance) for txn in transactions if txn.balance is not None]
+        max_bal = max(balances) if balances else None
+
         for txn in transactions:
             ok, reason = self.validate(txn)
+
+            if ok and max_bal is not None:
+                # Sanity check: reject transactions whose amount is wildly disproportionate
+                # to the statement balances (e.g. amount is > 5x the maximum balance)
+                # but only if amount is > 10,000 to prevent false positives on low-balance statements.
+                if txn.amount > max_bal * 5 and txn.amount > 10000:
+                    ok = False
+                    reason = f"amount ({txn.amount}) is wildly disproportionate to the maximum statement balance ({max_bal})"
 
             if ok:
                 valid.append(txn)
@@ -113,3 +125,5 @@ class TransactionValidator:
             )
 
         return valid, skipped
+
+

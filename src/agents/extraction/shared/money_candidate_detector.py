@@ -79,6 +79,20 @@ class MoneyCandidateDetector:
             if not _PURE_MONEY_LINE_RE.match(stripped):
                 continue
 
+            # Heuristic: Skip bare undecorated integers on their own line that have:
+            # - No decimal point
+            # - No currency symbol or DR/CR indicators on the line
+            # - No amount/balance-type context words on the line
+            # - A digit count >= 7 (unlikely to be a transaction amount without formatting)
+            has_decimal = "." in stripped
+            has_decoration = any(s in stripped.upper() for s in ["₹", "RS", "$", "DR", "CR", "DEBIT", "CREDIT"])
+            has_context = any(w in stripped.upper() for w in ["AMOUNT", "AMT", "VALUE", "BALANCE", "BAL", "CLOSING", "AVAILABLE"])
+
+            if not has_decimal and not has_decoration and not has_context:
+                digit_count = sum(c.isdigit() for c in stripped)
+                if digit_count >= 7:
+                    continue
+
             for match in _MONEY_PATTERN.finditer(line):
 
                 raw = match.group().strip()
